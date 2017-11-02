@@ -1,0 +1,86 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'Aclonica', sans-serif;
+}
+
+/*
+   Awesome Armadillos
+   1st Web Site
+   Web Design 1
+
+   Base Style Sheet for the Awesome Armadillos Website
+
+   Author: Nadean Rudolph
+   Date:   10-31-17
+   Filename: aanr_base.css
+   */
+
+   /*Reset Styles*/
+
+article, footer, header, main, nav, section {
+  display: block;
+}
+
+address, article, aside, blockquote, body, cite, div, dl,
+dt, dd, em, figcaption, figure, footer, h1, h2, h3, h4,
+h5, h6, header, html, img, li, main, nav, ol, p, section,
+span, ul {
+  background: transparent;
+  font-size: 100;
+  margin: 0%;
+  padding: 0%;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+/*HTML STYLE*/
+
+html{
+  background-color: beige;
+}
+
+/*header style*/
+
+h1{
+     font-family: 'Aclonica', sans-serif;
+     font-size: 2.5em;
+     padding: 2%;
+     transform: translateY(-80%);
+   }
+
+nav.horizontal {
+  list-style: none;
+}
+
+ ul li a{
+     background-color: black
+     font-family: Verdana, Geneva, sans-serif;
+     list-style: none;
+     color: white;
+
+}
+
+/*Body Styles*/
+
+body{
+  background-color: tan;
+
+}
+
+h2{
+  font-family: 'Aclonica', sans-serif;
+  font-size: 1.75em;
+  padding-left: 15px;
+  padding-top: 30px;
+}
+
+p {
+  font-family: sans-serif;
+  padding-left: 15px;
+  padding-bottom: 15px;
+
+
+}

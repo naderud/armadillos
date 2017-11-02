@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*
+   Awesome Armadillos
+   1st Web Site
+   Web Design 1
+
+  Layout Style Sheet for the Awesome Armadillos Website
+
+   Author: Nadean Rudolph
+   Date:   10-31-17
+   Filename: aanr_layout.css
+   */
+body{
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  min-width: 640px;
+
+}
+
+
+header > img {
+  clear: left;
+  display: block;
+  float: left;
+}
+
+h1{
+  clear: left;
+  float: left;
+}
+
+nav.horizontal {
+  clear: both;
+}
+
+nav.horizontal li {
+  display: block;
+  width: 25%;
+  float: left;
+  font-family: sans-serif;
+
+}
+
+nav.horizontal a {
+  background-color: black;
+  display: block;
+  line-height: 3em;
+  text-align: center;
+  text-decoration: none;
+}
+
+img:nth-of-type(1) {
+  float: right;
+  padding-left: 15px;
+}
+
+img:nth-of-type(2) {
+  clear: right;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+footer {
+  clear: left;
+  background-color: black;
+  line-height: 2em;
+  text-align: center;
+  color: white;
+}
