@@ -78,6 +78,14 @@ h2{
   padding-bottom: 30px;
 }
 
+h3{
+  font-family: 'Aclonica', sans-serif;
+  font-size: 1.75em;
+  padding-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 p {
   font-family: sans-serif;
   padding-left: 15px;
