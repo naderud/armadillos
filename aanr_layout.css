@@ -61,7 +61,7 @@ nav.horizontal a {
 }
 
 nav a:hover {
-  background-color: salmon;
+  background-color: purple;
 }
 
 article img {
@@ -71,9 +71,9 @@ article img {
 }
 
 section.Dasypus img{
-  clear: right;
-  float: right;
-  padding-right: 100px;
+  clear: both;
+  float: left;
+  padding-left: 100px;
 }
 
 
