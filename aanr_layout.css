@@ -12,7 +12,7 @@
    Filename: aanr_layout.css
    */
 
-
+/**{outline: 1px solid red;}*/
 body{
   height: 100%;
   margin-left: auto;
@@ -67,16 +67,14 @@ nav a:hover {
 
 img {
   float: right;
-  padding-left: 15px;
+  /*padding-left: 15px;*/
 }
 
-section img {
-  width: 75%;
-  margin: auto;
-}
+
+
 
 footer {
-  clear: left;
+  clear: both;
   background-color: black;
   line-height: 2em;
   text-align: center;
