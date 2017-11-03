@@ -11,6 +11,8 @@
    Date:   10-31-17
    Filename: aanr_layout.css
    */
+
+
 body{
   height: 100%;
   margin-left: auto;
@@ -20,6 +22,12 @@ body{
 
 }
 
+/*Header style*/
+
+header {
+  background-color: lime;
+  position: relative;
+}
 
 header > img {
   clear: left;
@@ -30,10 +38,13 @@ header > img {
 h1{
   clear: left;
   float: left;
+  position: absolute;
+
 }
 
 nav.horizontal {
   clear: both;
+  background-color: black;
 }
 
 nav.horizontal li {
@@ -45,23 +56,23 @@ nav.horizontal li {
 }
 
 nav.horizontal a {
-  background-color: black;
   display: block;
-  line-height: 3em;
   text-align: center;
   text-decoration: none;
 }
 
-img:nth-of-type(1) {
+nav a:hover {
+  background-color: yellow;
+}
+
+img {
   float: right;
   padding-left: 15px;
 }
 
-img:nth-of-type(2) {
-  clear: right;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 50px;
+section img {
+  width: 75%;
+  margin: auto;
 }
 
 footer {

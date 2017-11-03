@@ -56,7 +56,7 @@ nav.horizontal {
 }
 
  ul li a{
-     background-color: black
+     /*background-color: black*/
      font-family: Verdana, Geneva, sans-serif;
      list-style: none;
      color: white;
