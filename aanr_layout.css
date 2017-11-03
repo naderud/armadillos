@@ -25,7 +25,6 @@ body{
 /*Header style*/
 
 header {
-  background-color: lime;
   position: relative;
 }
 
@@ -36,10 +35,10 @@ header > img {
 }
 
 h1{
-  clear: left;
-  float: left;
   position: absolute;
-
+  left: 27%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 
 nav.horizontal {
@@ -62,12 +61,12 @@ nav.horizontal a {
 }
 
 nav a:hover {
-  background-color: yellow;
+  background-color: salmon;
 }
 
-img {
+article img {
   float: right;
-  /*padding-left: 15px;*/
+  padding-left: 15px;
 }
 
 
