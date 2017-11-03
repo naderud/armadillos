@@ -76,6 +76,14 @@ section.Dasypus img{
   padding-left: 200px;
 }
 
+/*Recipe 1 Styles*/
+
+article.Recipe1 img{
+  clear: both;
+  display: block;
+  float: right;
+}
+
 
 
 footer {
