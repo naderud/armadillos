@@ -87,7 +87,7 @@ article.Recipe1 h2{
 
 }
 
-article.Recipe1 img{
+section#box img{
   clear: both;
   display: block;
   float: left;
@@ -117,7 +117,7 @@ article.Recipe1 h3{
   padding-bottom: 30px;
 }
 
-article.Recipe1 > section > img {
+section#recipe img {
   display: inline-block;
   float: right;
 }
