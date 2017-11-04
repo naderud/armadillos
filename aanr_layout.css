@@ -80,6 +80,7 @@ section.Dasypus img{
 article.Recipe1 h2{
   font-family: 'Aclonica', sans-serif;
   font-size: 2em;
+  width: 100%;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 30px;
@@ -87,10 +88,24 @@ article.Recipe1 h2{
 }
 
 article.Recipe1 img{
-  clear: both;
+  clear: left;
   display: block;
   float: left;
   padding-left: 300px;
+
+}
+
+article.Recipe1 h3{
+  font-family: 'Aclonica', sans-serif;
+  font-size: 1.75em;
+  padding-left: 15px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+article.Recipe1 > section > img {
+  display: inline-block;
+  float: right;
 }
 
 
