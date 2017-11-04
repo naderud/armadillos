@@ -95,6 +95,19 @@ article.Recipe1 img{
 
 }
 
+article.Recipe1 nav li {
+  display: block;
+  width: 100%;
+  float: left;
+  font-family: sans-serif;
+}
+
+article.Recipe1 a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
 article.Recipe1 h3{
   font-family: 'Aclonica', sans-serif;
   font-size: 1.75em;
