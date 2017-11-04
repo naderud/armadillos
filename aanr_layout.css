@@ -73,7 +73,7 @@ article img {
 section.Dasypus img{
   clear: both;
   float: left;
-  padding-left: 300px;
+  padding-left: 320px;
 }
 
 /*Recipe 1 Styles*/
@@ -89,6 +89,8 @@ article.Recipe1 h2{
 article.Recipe1 img{
   clear: both;
   display: block;
+  float: left;
+  padding-left: 300px;
 }
 
 
