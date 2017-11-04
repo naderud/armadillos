@@ -89,10 +89,9 @@ article.Recipe1 h2{
 
 section#box img{
   clear: both;
-  display: block;
   float: left;
   padding-left: 300px;
-  width: 25%
+  width: 100%
 
 }
 
@@ -113,20 +112,20 @@ article.Recipe1 h3{
   font-family: 'Aclonica', sans-serif;
   font-size: 1.75em;
   padding-left: 15px;
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 30px;
 }
 
 section#recipe img {
-  display: inline-block;
+  display: block;
   float: right;
 }
 
 section#recipe ul li {
-  display: inline-block;
+  display: block;
   font-family: sans-serif;
-  padding-left: 25px;
-  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-bottom: 10px;
 }
 
 
