@@ -96,13 +96,14 @@ section#box img{
 }
 
 article.Recipe1 nav ul li {
+  clear: left;
   display: block;
   width: 20%;
   float: left;
   font-family: sans-serif;
 }
 
-article.Recipe1 nav {
+article.Recipe1 nav li {
   background-color: rgb(89, 64, 9);
 }
 
