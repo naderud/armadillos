@@ -96,7 +96,7 @@ article.Recipe1 img{
 
 }
 
-article.Recipe1 nav li {
+article.Recipe1 nav ul li {
   display: block;
   width: 100%;
   float: left;
@@ -117,11 +117,17 @@ article.Recipe1 h3{
   padding-bottom: 30px;
 }
 
-article.Recipe1 > section.arm4 > img {
+article.Recipe1 > section > img {
   display: inline-block;
   float: right;
 }
 
+article.Recipe1 > section > ul > li {
+  display: inline-block;
+  font-family: sans-serif;
+  padding-left: 25px;
+  padding-bottom: 5px;
+}
 
 
 footer {
