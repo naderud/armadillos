@@ -88,11 +88,12 @@ article.Recipe1 h2{
 }
 
 article.Recipe1 img{
-  clear: left;
+  clear: both;
   display: block;
   float: left;
   padding-left: 300px;
   width: 25%
+
 }
 
 article.Recipe1 nav li {
@@ -116,7 +117,7 @@ article.Recipe1 h3{
   padding-bottom: 30px;
 }
 
-article.Recipe1 > section > img {
+article.Recipe1 > section.arm4 > img {
   display: inline-block;
   float: right;
 }
