@@ -92,7 +92,7 @@ article.Recipe1 img{
   display: block;
   float: left;
   padding-left: 300px;
-
+  width: 25%
 }
 
 article.Recipe1 nav li {
