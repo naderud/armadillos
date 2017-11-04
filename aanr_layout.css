@@ -95,9 +95,9 @@ article.Recipe1 h2{
 
 }
 
-article.Recipe1 nav ul li {
-  /*display: block;
-  clear: left;*/
+nav.recipes {
+  display: block;
+  clear: left;
   width: 20%;
   float: left;
   font-family: sans-serif;
