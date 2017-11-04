@@ -88,7 +88,7 @@ article.Recipe1 h2{
 }
 
 section#box img{
-  clear: both;
+  clear: left;
   float: left;
   padding-left: 300px;
   width: 100%
@@ -97,9 +97,13 @@ section#box img{
 
 article.Recipe1 nav ul li {
   display: block;
-  width: 100%;
+  width: 20%;
   float: left;
   font-family: sans-serif;
+}
+
+article.Recipe1 nav {
+  background-color: rgb(89, 64, 9);
 }
 
 article.Recipe1 a {
@@ -122,6 +126,7 @@ section#recipe img {
 }
 
 section#recipe ul li {
+  clear: right;
   display: block;
   font-family: sans-serif;
   padding-left: 40px;
