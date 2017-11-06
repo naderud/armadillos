@@ -113,30 +113,30 @@ article.Recipe1 h2{
 
 }
 
-article.Recipe1 section#box img{
+section#box img{
   clear: left;
   float: left;
   padding-left: 300px;
-  width: 20%
+  width: 30%;
 
 }
 
-article.Recipe1 nav {
+ nav.recipes{
   clear: left;
   float: left;
   font-family: sans-serif;
   background-color: rgb(89, 64, 9);
 }
 
-article.Recipe1 nav li {
+nav.recipes ul li {
   display: block;
   width: 20%;
   float: left;
   font-family: sans-serif;
-
+  background-color: rgb(89, 64, 9);
 }
 
-article.Recipe1 a {
+nav.recipes a {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -150,12 +150,12 @@ article.Recipe1 h3{
   padding-bottom: 30px;
 }
 
-section#recipe img {
+section#first img {
   display: block;
   float: right;
 }
 
-section#recipe ul li {
+section#first ul li {
   clear: right;
   display: block;
   font-family: sans-serif;
