@@ -120,7 +120,7 @@ section#box img{
 
 }
 
-nav.recipes {
+article.Recipe1 nav {
   display: block;
   clear: left;
   width: 20%;
@@ -129,7 +129,7 @@ nav.recipes {
   background-color: rgb(89, 64, 9);
 }
 
-nav.recipes li {
+article.Recipe1 nav li {
   display: block;
   width: 25%;
   float: left;
@@ -137,7 +137,7 @@ nav.recipes li {
 
 }
 
-nav.recipes a {
+article.Recipe1 a {
   display: block;
   text-align: center;
   text-decoration: none;
