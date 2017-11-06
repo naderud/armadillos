@@ -76,6 +76,32 @@ section.Dasypus img{
   padding-left: 320px;
 }
 
+/*Biology Styles*/
+
+article.biology{
+  clear: both
+}
+
+article.biology h2{
+  clear: left;
+  display: block;
+  padding-left: 15px;
+  padding-bottom: 30px;
+}
+
+article.biology img {
+  clear: right;
+  width: 30%;
+  padding-left: 15px;
+}
+
+article.biology p{
+  font-family: sans-serif;
+  padding-left: 15px;
+}
+
+
+
 /*Recipe 1 Styles*/
 article.Recipe1 h2{
   font-family: 'Aclonica', sans-serif;
