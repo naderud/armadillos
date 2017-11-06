@@ -83,19 +83,18 @@ article.biology{
 }
 
 article.biology h2{
-  clear: left;
   display: block;
   padding-left: 15px;
   padding-bottom: 30px;
 }
 
 article.biology img {
-  clear: right;
   width: 30%;
   padding-left: 15px;
 }
 
 article.biology p{
+  clear: both;
   font-family: sans-serif;
   padding-left: 15px;
 }
@@ -130,7 +129,15 @@ nav.recipes {
   background-color: rgb(89, 64, 9);
 }
 
-article.Recipe1 a {
+nav.recipes li {
+  display: block;
+  width: 25%;
+  float: left;
+  font-family: sans-serif;
+
+}
+
+nav.recipes a {
   display: block;
   text-align: center;
   text-decoration: none;
