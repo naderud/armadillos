@@ -89,12 +89,13 @@ article.biology h2{
 }
 
 article.biology img {
+  display: block;
   width: 30%;
   padding-left: 15px;
 }
 
 article.biology p{
-  clear: both;
+  display: block;
   font-family: sans-serif;
   padding-left: 15px;
 }
