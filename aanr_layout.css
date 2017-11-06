@@ -151,6 +151,7 @@ article.Recipe1 h3{
 }
 
 section#first img {
+  clear: right;
   display: block;
   float: right;
 }
