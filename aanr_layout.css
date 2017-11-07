@@ -163,6 +163,12 @@ article.Recipe1 ul li {
   padding-bottom: 10px;
 }
 
+section.Logo img{
+  clear: both;
+  float: left;
+  padding-left: 350px;
+}
+
 /*Footer Styles*/
 
 footer {
