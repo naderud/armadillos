@@ -121,14 +121,14 @@ section#box img{
 
 }
 
- nav.recipes{
-  clear: left;
+ nav.top5{
+  clear: both;
   float: left;
   font-family: sans-serif;
   background-color: rgb(89, 64, 9);
 }
 
-nav.recipes ul li {
+nav.top5 ul li {
   display: block;
   width: 20%;
   float: left;
@@ -136,7 +136,7 @@ nav.recipes ul li {
   background-color: rgb(89, 64, 9);
 }
 
-nav.recipes a {
+nav.top5 a {
   display: block;
   text-align: center;
   text-decoration: none;
