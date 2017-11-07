@@ -114,9 +114,9 @@ article.Recipe1 h2{
 }
 
 section#box img{
-  clear: left;
-  float: left;
-  padding-left: 300px;
+  clear: right;
+  float: rigy;
+  padding-right:50px;
   width: 30%;
 
 }
