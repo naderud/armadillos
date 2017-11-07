@@ -122,18 +122,16 @@ section#box img{
 }
 
  nav.top5{
-  clear: both;
-  float: left;
   font-family: sans-serif;
-  background-color: rgb(89, 64, 9);
 }
 
 nav.top5 ul li {
   display: block;
+  float: left;
   width: 20%;
   float: left;
   font-family: sans-serif;
-  background-color: rgb(89, 64, 9);
+  /*background-color: rgb(89, 64, 9);*/
 }
 
 nav.top5 a {
