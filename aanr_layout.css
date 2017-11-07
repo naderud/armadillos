@@ -103,6 +103,7 @@ article.biology p{
 
 
 /*Recipe 1 Styles*/
+
 article.Recipe1 h2{
   font-family: 'Aclonica', sans-serif;
   font-size: 2em;
@@ -113,13 +114,7 @@ article.Recipe1 h2{
 
 }
 
-section#box img{
-  clear: right;
-  float: right;
-  padding-right:50px;
-  width: 30%;
-
-}
+/*Recipe Navigation*/
 
  nav.top5{
   font-family: sans-serif;
@@ -139,6 +134,7 @@ nav.top5 a {
   text-decoration: none;
 }
 
+
 article.Recipe1 h3{
   font-family: 'Aclonica', sans-serif;
   font-size: 1.75em;
@@ -147,11 +143,17 @@ article.Recipe1 h3{
   padding-bottom: 30px;
 }
 
-section#first img {
+/*Recipe Box Image*/
+
+section#box img{
   clear: right;
-  display: block;
   float: right;
+  padding-right:50px;
+  width: 30%;
+
 }
+
+/*Unordered List Styles*/
 
 article.Recipe1 ul li {
   display: block;
@@ -161,6 +163,7 @@ article.Recipe1 ul li {
   padding-bottom: 10px;
 }
 
+/*Footer Styles*/
 
 footer {
   clear: both;
