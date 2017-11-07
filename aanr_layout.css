@@ -115,7 +115,7 @@ article.Recipe1 h2{
 
 section#box img{
   clear: right;
-  float: rigy;
+  float: right;
   padding-right:50px;
   width: 30%;
 
@@ -129,7 +129,6 @@ nav.top5 ul li {
   display: block;
   float: left;
   width: 20%;
-  float: left;
   font-family: sans-serif;
   /*background-color: rgb(89, 64, 9);*/
 }
@@ -154,8 +153,7 @@ section#first img {
   float: right;
 }
 
-section#first ul li {
-  clear: right;
+ul li {
   display: block;
   font-family: sans-serif;
   padding-left: 40px;
