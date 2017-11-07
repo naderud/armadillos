@@ -39,6 +39,7 @@ h1{
   left: 27%;
   top: 50%;
   transform: translate(-50%,-50%);
+  text-shadow: white 3px, 3px, 3px;
 }
 
 nav.horizontal {
@@ -117,10 +118,12 @@ article.Recipe1 h2{
 /*Recipe Navigation*/
 
  nav.top5{
+  clear: left;
   font-family: sans-serif;
 }
 
 nav.top5 ul li {
+  clear: left;
   display: block;
   float: left;
   width: 20%;
@@ -165,8 +168,8 @@ article.Recipe1 ul li {
 
 section.Logo img{
   clear: both;
-  float: left;
-  padding-left: 350px;
+  float: right;
+  padding-right: 380px;
 }
 
 /*Footer Styles*/
