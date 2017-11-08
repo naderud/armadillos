@@ -99,6 +99,7 @@ article.biology p{
   display: block;
   font-family: sans-serif;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 
@@ -117,22 +118,18 @@ article.Recipe1 h2{
 
 /*Recipe Navigation*/
 
- nav.top5{
-  clear: left;
+nav.top5 {
   font-family: sans-serif;
 }
 
-nav.top5 ul li {
-  clear: left;
+nav.top5 ul li a {
   display: block;
-  float: left;
   width: 20%;
   font-family: sans-serif;
   /*background-color: rgb(89, 64, 9);*/
 }
 
 nav.top5 a {
-  display: block;
   text-align: center;
   text-decoration: none;
 }
@@ -169,7 +166,7 @@ article.Recipe1 ul li {
 section.Logo img{
   clear: both;
   float: right;
-  padding-right: 360px;
+  padding-right: 365px;
 }
 
 /*Footer Styles*/
