@@ -39,7 +39,7 @@ h1{
   left: 27%;
   top: 50%;
   transform: translate(-50%,-50%);
-  text-shadow: white 3px, 3px, 3px;
+  text-shadow: white 0px 0px 30px;
 }
 
 nav.horizontal {
